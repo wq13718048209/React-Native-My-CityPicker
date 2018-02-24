@@ -1,6 +1,4 @@
-import {NativeModules, Platform} from 'react-native;'
+import {NativeModules} from 'react-native;'
 const CityPicker  = NativeModules.RnPickerView;
-export {
-    CityPicker
-}
+export default CityPicker;
 
