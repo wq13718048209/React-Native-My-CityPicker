@@ -91,6 +91,5 @@ const styles = StyleSheet.create({
     }
 });
 
-
 This is just one of the most simple example, there are many properties of the unfolding and will continue to finished. Next AnZhuoDuan is native to write, so to ensure the fluency. IOS using ReactNative component, is also very smooth.
 
