@@ -1,10 +1,24 @@
 {
   "name": "react-native-my-citypicker",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "16.2.0",
+    "react-native": "0.53.3"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
   },
   "author": "",
   "license": "ISC"
