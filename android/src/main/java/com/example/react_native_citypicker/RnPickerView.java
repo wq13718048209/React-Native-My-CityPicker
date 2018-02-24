@@ -1,4 +1,4 @@
-package com.example.react_native_citypicker.bean;
+package com.example.react_native_citypicker;
 
 import android.graphics.Color;
 import android.util.Log;
@@ -6,7 +6,6 @@ import android.view.View;
 
 import com.bigkoo.pickerview.OptionsPickerView;
 import com.bigkoo.pickerview.TimePickerView;
-import com.example.react_native_citypicker.bean.JsonBean;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -28,7 +27,6 @@ import java.util.Date;
 
 public class RnPickerView extends ReactContextBaseJavaModule{
 
-    public static final String REACT_CLASS = "com.example.react_native_citypicker.bean.RnPickerView";
     private TimePickerView timePickerView;
 
     private ArrayList<JsonBean> options1Items = new ArrayList<>();
@@ -43,7 +41,7 @@ public class RnPickerView extends ReactContextBaseJavaModule{
 
     @Override
     public String getName() {
-        return REACT_CLASS;
+        return "RnPickerView";
     }
 
 

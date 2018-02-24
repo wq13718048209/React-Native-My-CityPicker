@@ -1,4 +1,4 @@
-package com.example.react_native_citypicker.bean;
+package com.example.react_native_citypicker;
 
 import com.bigkoo.pickerview.model.IPickerViewData;
 

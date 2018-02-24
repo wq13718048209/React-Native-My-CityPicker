@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/wangqiang/CityPicker/android/react-native-citypicker/src/main/assets"><file name="province.json" path="/Users/wangqiang/CityPicker/android/react-native-citypicker/src/main/assets/province.json"/></source><source path="/Users/wangqiang/CityPicker/android/react-native-citypicker/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/wangqiang/CityPicker/android/react-native-citypicker/src/release/assets"/></dataSet></merger>
